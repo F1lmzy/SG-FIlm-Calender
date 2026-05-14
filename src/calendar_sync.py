@@ -14,7 +14,7 @@ from googleapiclient.errors import HttpError
 class CalendarSync:
     """Sync film screenings to Google Calendar."""
 
-    SCOPES = ["https://www.googleapis.com/auth/calendar.events"]
+    SCOPES = ["https://www.googleapis.com/auth/calendar"]
     DEFAULT_LOCATION = "Filmhouse Cinemas, Singapore"
     TIMEZONE = "Asia/Singapore"
 
